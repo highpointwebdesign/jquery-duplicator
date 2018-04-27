@@ -33,7 +33,7 @@
 	}
 	
     
-    $(settings.removeSelector).live('click', function() {
+    $(settings.removeSelector).on('click', function() {
 
         var parents = $(this).parents(settings.rowSelector);
 
